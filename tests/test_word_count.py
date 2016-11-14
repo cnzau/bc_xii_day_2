@@ -85,3 +85,4 @@ class TestWordCounts(unittest.TestCase):
             {'hello': 1, 'world': 1},
             words('hello  world'),
             msg='should count multiple spaces as one'
+        )

@@ -2,6 +2,9 @@
 
 
 def words(sentence):
+	"""
+	Given a string. This returns word count in a dictionary
+	"""
     word_return = {}
     for w in sentence.split():
         if w.isdigit():
